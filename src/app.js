@@ -17,11 +17,10 @@ const GoogleMap = (props) => {
   };
   const initMap = (element) => {
     const mapElement = element;
-    console.log(mapElement);
     const map = new props.google.maps.Map(mapElement, mapOptions);
   }
   return (
-    <div oncreate={elem => initMap(elem)} style={{width: '100%', height: '100vh'}}>google</div>
+    <div oncreate={elem => initMap(elem)} style={{width: '100%', height: '100vh'}}>...</div>
   );
 };
 
